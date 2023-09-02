@@ -1,0 +1,45 @@
+.login-form {
+  margin: auto;
+  margin-top: 12rem;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 5px;
+  width: 35rem;
+  padding: 3rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.login-form-body {
+  text-align: center;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+input {
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.fa-brands {
+  cursor: pointer;
+  color: black;
+  font-size: 2.5rem;
+}
+
+.fa-brands:hover {
+  color: red;
+}
+
+.btn,
+.buttons {
+  font-size: 1.5rem;
+  color: white;
+}
